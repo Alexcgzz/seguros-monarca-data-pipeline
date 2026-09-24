@@ -1,0 +1,101 @@
+customer_id,nombre,email,fecha_nacimiento,genero,ciudad,estado,fecha_alta
+C00001,Dr. Francisco Javier Chávez,trejoeric@example.net,27/12/1964,F,NUEVA VIETMAN,CDMX,12-23-2021
+C00002,Flavio Gabriel Santiago,valentinleonardo@example.net,07/11/1992,m,San Antonio de la Montaña,Sonora,04-19-2021
+C00003,Dra. Abril Crespo,rmolina@example.org,1972-11-02,m, San Mario los bajos ,Yucatán,2021-01-27
+C00004,Juan Bernardo Muñoz,pamela40@example.net,1992-11-30,,vieja brunei darussalam,Coahuila,2022-02-23
+C00005,Angélica Nelly Lozada,mitzy31@example.org,31/01/1989,,SAN MAGDALENA DE LA MONTAÑA,Nuevo León,02-25-2026
+C00006,Bruno Olivares,eugenia52@example.com,1966-03-14,Masculino, Vieja Benin ,Sonora,01-21-2025
+C00007,Sr. Uriel de la Torre,jeronimorios@example.com,1972-04-01,,San Luis Miguel los altos,Yucatán,2021-11-23
+C00008,Dulce María Meléndez,gironantonio@example.com,1964-01-23,Masculino, San Silvia los altos ,Jalisco,25/02/2025
+C00009,Rufino Mascareñas,trinidadsanabria@example.com,1973-10-18,F,San René de la Montaña,Baja California,2023-09-30
+C00010,Gerónimo Rolando Tijerina Irizarry,zvergara@example.com,1996-06-21,,san hugo los bajos,Nuevo León,2023-07-28
+C00011,Arcelia Amelia Carmona Corral,dulceybarra@example.org,1983-04-20,m,Nueva Palau,Coahuila,05-21-2023
+C00012,Mónica Esmeralda Uribe Alba,teranrenato@example.net,1999-10-15,F, San Carla los altos ,Puebla,12-13-2023
+C00013,Celia María Acosta,jaqueline28@example.org,1993-06-08,F, San Francisco Javier los bajos ,Baja California,2026-07-15
+C00014,Srita. Cecilia Niño,margaritatamez@example.org,1959-03-24,,san silvia los altos,Guanajuato,18/09/2021
+C00015,José Eduardo Iván Grijalva,guajardomayte@example.org,1989-03-27,m, San Irene de la Montaña ,Nuevo León,04-15-2022
+C00016,Camila Cazares,kulloa@example.com,2003-03-05,Femenino,VIEJA BELARÚS,Jalisco,2026-02-02
+C00017,Jacinto Ozuna,emilia87@example.org,1978-08-18,M,san manuel los altos,Yucatán,2023-03-26
+C00018,Alejandra Villalobos Urrutia,nayeligaray@example.org,1988-07-18,Femenino,Nueva Barbados,Nuevo León,04/04/2022
+C00019,Alejandro Jesús Batista,rodrigoruelas@example.org,1982-08-03,M,nueva etiopía,CDMX,2026-06-14
+C00020,Leticia Cynthia Cabrera Calderón,bmoreno@example.com,2002-10-16,m,vieja finlandia,Jalisco,12-22-2023
+C00021,Ángel Lorenzo Mojica,guzmanjuan-carlos@example.org,1992-12-17,Femenino,san carlos los altos,Coahuila,11-30-2025
+C00022,Homero Miguel Haro Benítez,gurbina@example.org,1995-07-04,M,san homero los bajos,Sonora,08-01-2023
+C00023,Emilio Palomo,nrosales@example.com,04/10/1974,M,Nueva Zimbabwe,Coahuila,10-18-2021
+C00024,Julio Jaimes Rentería,dulce87@example.org,1976-05-08,F, Nueva Letonia ,Sonora,2026-04-21
+C00025,Santiago Torres Ballesteros,claudio09@example.com,1997-06-07,f,vieja españa,Guanajuato,22/12/2024
+C00026,Esteban Armando Yáñez,gollumconchita@example.org,1991-11-18,f,Nueva Palau,CDMX,06/09/2021
+C00027,Luis Miguel Serafín Vallejo,ramiro35@example.org,1985-06-10,F,Nueva San Vicente y las Granadinas,Baja California,2026-01-12
+C00028,Lic. Jacobo Beltrán,reynosorocio@example.net,1992-11-06,M, San Citlali de la Montaña ,Querétaro,2022-02-06
+C00029,Patricio Jaimes,andreabarrientos@example.org,2003-07-01,,Nueva Qatar,Puebla,13/11/2022
+C00030,Natividad Virginia Madrid Tafoya,urrutiatimoteo@example.net,1998-07-27,F, San Rufino de la Montaña ,Guanajuato,09/01/2021
+C00031,Carlos Rodolfo Cortés,ruben93@example.net,1978-10-17,f, Nueva Ghana ,Baja California,2026-06-17
+C00032,Lic. Gilberto Ávalos,pinarodolfo@example.org,1972-01-14,m,San Lucas los altos,Nuevo León,2024-07-08
+C00033,Dr. Martín Ureña,avalentin@example.org,1959-07-02,m,vieja canadá,CDMX,2023-02-01
+C00034,José Luis Verduzco Urías,eloisacavazos@example.org,1961-02-04,m,nueva república árabe siria,Puebla,06-12-2021
+C00035,Diana Haro Candelaria,marisela69@example.net,1962-05-10,F,SAN ASUNCIÓN DE LA MONTAÑA,Coahuila,05/09/2023
+C00036,Luis Alberto Duarte Mercado,rguzman@example.org,1990-07-05,,NUEVA COSTA RICA,CDMX,08/02/2021
+C00037,Dulce María Débora Rincón Montez,mauro30@example.net,2005-07-05,m,Vieja Armenia,Yucatán,27/06/2022
+C00038,Sr. Homero Montoya,vteran@example.org,1961-03-04,Femenino,VIEJA ISLAS MARSHALL,Baja California,05-24-2024
+C00039,Dra. Alta  Gracia Cardona,umontano@example.com,15/06/2002,M,VIEJA DINAMARCA,Jalisco,2023-12-20
+C00040,Juan Carlos Samuel Espinal,benjamin60@example.net,1964-08-08,m,san paola los altos,Puebla,2024-11-05
+C00041,Jesús Zacarías Martínez,maciasjudith@example.com,1978-09-07,,VIEJA MARRUECOS,Nuevo León,01-14-2022
+C00042,Dr. Evelio Peres,,1992-12-31,,San Aldonza los bajos,Jalisco,2023-12-09
+C00043,Israel Llamas Gaitán,mvenegas@example.net,1994-08-22,M, San Cristal los altos ,CDMX,09-03-2022
+C00044,Tania Dolores Segura Rojas,vanesabravo@example.com,1958-03-26,M,san gabriela los bajos,Yucatán,2025-02-02
+C00045,Dr. Federico Contreras,arredondooscar@example.com,1987-02-06,Masculino,san esteban de la montaña,Baja California,07-23-2025
+C00046,Srita. Yolanda Olivo,ppabon@example.org,1968-11-12,,vieja malawi,Jalisco,2025-08-16
+C00047,Ernesto Sisneros,jarteaga@example.org,1971-02-03,Femenino,NUEVA MALI,Puebla,2023-12-29
+C00048,Sonia Mónica Valdivia Yáñez,esparta98@example.com,1964-09-12,F,Vieja Chad,Puebla,01/03/2026
+C00049,Margarita Esperanza Gutiérrez Lebrón,rgriego@example.com,1982-05-19,f,san jaime los altos,Puebla,21/06/2025
+C00050,Ing. Jaime Toledo,chavarriaisrael@example.org,1979-12-30,m,VIEJA FIJI,Guanajuato,2024-09-18
+C00051,Antonio Pedroza,imenendez@example.com,1965-05-07,Masculino,SAN IVÁN LOS ALTOS,Nuevo León,03-21-2022
+C00052,Julia Paola Almonte,aromero@example.com,1993-12-26,m,SAN CORNELIO DE LA MONTAÑA,CDMX,04-27-2025
+C00053,Natividad Zavala,,1972-01-20,, San Catalina los bajos ,Baja California,19/03/2023
+C00054,Ilse Susana Palacios,georginacavazos@example.net,10/09/1993,f,SAN INDIRA DE LA MONTAÑA,CDMX,05-15-2024
+C00055,Sra. Antonia Porras,franciscaecheverria@example.org,1982-09-30,Masculino,VIEJA RUMANIA,Baja California,2022-06-06
+C00056,Mauro Mena,caridad46@example.com,1992-09-20,F, San Caridad los bajos ,Sonora,17/05/2024
+C00057,Ana Montez,susanabarrientos@example.net,2004-02-27,Femenino,VIEJA ANGOLA,Sonora,12/08/2024
+C00058,Agustín Corral,gilbertorojas@example.net,1994-08-20,,nueva francia,Jalisco,14/12/2021
+C00059,Ing. Emilio Zelaya,davilazacarias@example.org,2001-03-30,,NUEVA MYANMAR,Puebla,2024-06-25
+C00060,Karla Yolanda Farías,villarrealrosario@example.org,1972-11-12,Femenino,Vieja República Dominicana,Sonora,26/10/2021
+C00061,Sra. Norma Arguello,luisa65@example.org,1992-03-07,Femenino,vieja timor-leste,Querétaro,2025-06-25
+C00062,Barbara Lucía Nájera Rico,elviadel-valle@example.net,1968-03-28,,San Alberto los bajos,CDMX,2025-10-08
+C00063,María Elena Luisa Villarreal Jasso,oscar14@example.com,1970-10-12,F, San Raquel los altos ,CDMX,2026-02-13
+C00064,Ing. Ilse Anaya,lmelendez@example.com,1996-09-07,Femenino,VIEJA REPÚBLICA DEMOCRÁTICA DEL CONGO,Sonora,30/08/2026
+C00065,Eugenia Ybarra Leal,sierrajuan@example.org,2004-02-25,Femenino,vieja georgia,Querétaro,2023-11-28
+C00066,Elvia Rolón,yramos@example.org,1979-11-17,Masculino, Vieja Noruega ,Querétaro,11-14-2021
+C00067,Verónica Elvira Malave,guadalupe88@example.com,1980-08-19,m,VIEJA ESTADOS UNIDOS DE AMÉRICA,CDMX,2022-07-21
+C00068,Violeta Rendón Juárez,pascual31@example.net,1975-09-30,M,san maría eugenia los bajos,Guanajuato,28/07/2025
+C00069,Vanesa Escalante,marcosroybal@example.com,2003-09-06,Femenino,Vieja Cabo Verde,Guanajuato,03-22-2021
+C00070,Dr. José Eduardo Duarte,aldo82@example.com,1989-02-15,Femenino,SAN FELIPE DE LA MONTAÑA,Guanajuato,23/06/2023
+C00071,Dr. Óscar Candelaria,,1974-09-08,Masculino, Nueva República Checa ,Guanajuato,08/11/2022
+C00072,Amador Gilberto Romo Carrera,pachecoirma@example.org,1966-06-14,m,San Esmeralda los bajos,Sonora,2021-04-22
+C00073,Dra. Antonia Guzmán,valdezdelia@example.net,1993-06-14,Masculino, Nueva Colombia ,Guanajuato,2024-09-02
+C00074,Frida Patricia Portillo Magaña,camacholuis-manuel@example.net,1995-10-17,, Vieja Mónaco ,Guanajuato,2023-10-31
+C00075,Eloy Gerardo Delgadillo,cortezabelardo@example.com,12/03/1997,Masculino,Vieja Suecia,Puebla,10-09-2021
+C00076,Sr. Gabriel Lomeli,eugenia13@example.com,1958-08-12,M,san noemí los bajos,Sonora,2022-09-17
+C00077,Elena Córdova,horacio10@example.org,1966-04-29,F,Vieja Burundi,Querétaro,16/11/2023
+C00078,Dra. Luz Castellanos,smaestas@example.com,1970-01-20,F,San Noemí los altos,Yucatán,03-19-2022
+C00079,Luz Angélica Zamora Arenas,mmedrano@example.com,1957-04-21,f, San Jaqueline los altos ,Puebla,11-08-2021
+C00080,Lic. Alejandra Jiménez,del-riogloria@example.net,1976-10-14,m,NUEVA ETIOPÍA,CDMX,18/06/2021
+C00081,Ing. Salma Salazar,rodrigezandrea@example.com,2002-10-17,f,SAN RODRIGO DE LA MONTAÑA,Coahuila,21/02/2021
+C00082,Emiliano Jesús Patiño,qlomeli@example.com,1998-12-23,,SAN ADRIANA LOS ALTOS,Querétaro,19/09/2022
+C00083,Esmeralda Mejía Carrillo,aserrano@example.net,1970-10-20,m,VIEJA BOLIVIA,Querétaro,20/03/2026
+C00084,Rafaél Nájera,wquintanilla@example.org,1979-01-29,M,san daniela de la montaña,Yucatán,2026-01-21
+C00085,Hugo Mario Rubio Casas,grijalvajaime@example.com,1996-09-09,Femenino, Vieja República Centroafricana ,Coahuila,15/01/2023
+C00086,Claudio Riojas,corralesivonne@example.net,1974-01-11,m,VIEJA BOSNIA Y HERZEGOVINA,Yucatán,02-11-2021
+C00087,Lic. Óliver Rodríquez,evaurena@example.org,21/02/1972,, San Julia los altos ,Puebla,05-05-2026
+C00088,Carla Barrios,debora58@example.com,1999-01-13,F,San Juan los altos,Guanajuato,24/09/2023
+C00089,Lic. Eduardo Ramón,vmontano@example.net,1988-02-09,f,VIEJA URUGUAY,Baja California,16/09/2024
+C00090,Gerardo Vázquez,xgonzalez@example.com,1995-09-16,f,SAN EVA LOS BAJOS,Puebla,2024-07-16
+C00091,Virginia Juana Olvera Coronado,iarce@example.net,2003-01-28,f,vieja yemen,Querétaro,02-07-2024
+C00092,Ramón Mauro Alejandro,cynthiacorrea@example.org,2002-01-25,Masculino,San Felipe los bajos,Puebla,2025-01-18
+C00093,Ing. Silvia Blanco,yuridia86@example.com,12/02/1982,M,san raúl los bajos,Baja California,04-11-2024
+C00094,Sra. Elsa Loera,espartacopuente@example.org,1966-04-30,M, San María de la Montaña ,Sonora,10/03/2024
+C00095,Sr. Alonso Meléndez,lozadaaraceli@example.com,1997-12-12,Masculino,vieja côte d'ivoire,Querétaro,2022-04-13
+C00096,Lilia Valles,jorgedel-rio@example.org,1990-12-13,,San Humberto de la Montaña,Sonora,2024-05-29
+C00097,Pablo Vergara,miguelriojas@example.net,1977-04-07,, San Reina los altos ,Sonora,07-14-2023
+C00098,Miguel Ángel Loera Treviño,diegoquintanilla@example.com,1989-02-15,m, San Florencia los bajos ,Guanajuato,06-04-2024
+C00099,Lic. Israel Farías,grosas@example.org,1960-05-27,F,San Silvia los bajos,Puebla,12-20-2023
+C00100,Dra. Violeta Lucero,ortizroberto@example.org,1962-04-14,F,san micaela los bajos,Nuevo León,01/08/2025

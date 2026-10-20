@@ -14,6 +14,12 @@ Nos solicita llegar a una conclusion y visualizacion leve de los datos. Asi mism
 4. Polizas activas vs vencidas/canceladas e ingreso en riesgo
 5. Monto promedio de siniestro por categoria
 
+## Dashboard (Power BI)
+
+![Dashboard](docs/images/dashboard.png)
+
+Archivo de Power BI: [seguros_monarca_dashboard.pbix](powerbi/seguros_monarca_dashboard.pbix)
+
 ## Arquitectura
  
 ```mermaid

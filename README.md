@@ -18,17 +18,16 @@ Nos solicita llegar a una conclusion y visualizacion leve de los datos. Asi mism
 
 ![Dashboard](docs/images/dashboard.png)
 
-Archivo de Power BI: [seguros_monarca_dashboard.pbix](powerbi/seguros_monarca_dashboard.pbix)
-
 ## Arquitectura
  
 ```mermaid
 flowchart LR
-    A[CSV crudos<br/>~37K registros] --> B[pandas<br/>limpieza y modelado]
-    B --> C[Parquet<br/>tipado y comprimido]
-    C --> D[(AWS S3<br/>data lake)]
-    D --> E[AWS Athena<br/>SQL]
-    E --> F[5 insights<br/>de negocio]
+    A[CSV crudos<br/>~37K registros] --> B[pandas<br/>perfilado y limpieza]
+    B --> C[Parquet limpio<br/>data/processed]
+    C --> D[Modelo estrella<br/>3 dimensiones + 3 hechos]
+    D --> E[(AWS S3<br/>hechos particionados por año)]
+    E --> F[AWS Athena<br/>SQL]
+    C --> G[Power BI<br/>dashboard]
 ```
 
 ## Stack
@@ -49,12 +48,26 @@ Asi mismo, se borrar los valores duplicados los cuales eran como 40 datos en una
 Y finalmente se limpio el texto sucio en algunas columnas (espacios sobrantes o casing inconsistente).
 
 
+## Modelo de datos (esquema estrella)
+
+| Tabla | Tipo | Una fila es... |
+|---|---|---|
+| `dim_clientes` | dimensión | un cliente |
+| `dim_producto` | dimensión | un producto |
+| `dim_fecha` | dimensión | un día |
+| `fact_polizas` | hecho | una póliza (medida: `prima_mxn`) |
+| `fact_siniestros` | hecho | un siniestro (medida: `monto_mxn`) |
+| `fact_pagos` | hecho | un pago (medida: `monto_mxn`) |
+
+Cada hecho se conecta directo a sus dimensiones. Para eso, `fact_siniestros` y `fact_pagos` traen `customer_id` y `producto_key` copiados desde pólizas. Las tablas de hechos se guardan particionadas por año y en el notebook se valida con `assert` que ningún JOIN multiplique filas ni deje llaves huerfanas. Con este volumen la particion no acelera las consultas, se aplica para demostrar el patron.
+
 ## Preguntas de negocio (resultados)
 Las 5 consultas SQL están en la carpeta `sql/`. Hallazgos destacados:
  
 - **Ingresos:** *Auto* es el producto con mayor ingreso (Aprox. $65.6M MXN en primas).
 - **Retención:** Aprox. $94M MXN en primas estan en polizas *vencidas o canceladas*.
-- **Siniestralidad:** No varian mucho de entre los productos, pero el de mayor siniestralidad y tener mas presente es *Gastos Medicos*.
+- **Siniestralidad:** va de ~391% (Auto) a ~404% (Gastos Médicos); Gastos Médicos es el producto con el valor más alto. Los porcentajes son irreales por ser datos sintéticos. Una primera versión de la consulta daba ~352–363% porque el JOIN repetía las primas de cada póliza por cada siniestro; se corrigió agregando antes de unir.
+- **Análisis regional:** mayor concentración de pólizas en CDMX, Baja California y Coahuila. Mayor número de siniestros en: [completa con el top 3 de tu consulta ordenada por siniestros].
 - **Análisis regional:** Estados donde hubo mayor concentracion de polizas y siniestros fueron *CDMX, Baja California y Coahuila*.
 
 
@@ -73,8 +86,10 @@ pip install pandas jupyter faker pyarrow
 # 3. Generar los datos crudos
 python generar_datos.py
  
-# 4. Ejecutar los notebooks en orden (01 → 02) para perfilar, limpiar y exportar a Parquet
-# 5. Subir data/processed/*.parquet a un bucket de S3 y consultar con Athena (ver carpeta sql/)
+# 4. Notebooks 01 y 02: perfilar, limpiar y exportar a data/processed
+# 5. Notebook 03: construir el modelo estrella en data/model
+# 6. Subir las carpetas de data/model a S3, crear las external tables y correr MSCK REPAIR TABLE en las tres tablas de hechos
+# 7. Ejecutar las consultas de la carpeta sql/
 ```
 
 
